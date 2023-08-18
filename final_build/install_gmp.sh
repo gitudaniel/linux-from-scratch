@@ -39,4 +39,3 @@ else
   echo "Test failures recorded. Please confirm with gmp-check-log and fix the issues then try again"
 
 fi
-
