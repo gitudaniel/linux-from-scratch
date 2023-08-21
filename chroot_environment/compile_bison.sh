@@ -11,3 +11,8 @@ cd bison-3.8.2
 make
 
 make install
+
+echo "Finished compilation of Bison"
+
+cd $LFS/sources
+rm -rf bison-3.8.2
