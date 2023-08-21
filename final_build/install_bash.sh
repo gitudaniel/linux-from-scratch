@@ -40,4 +40,5 @@ cd $LFS/sources
 rm -rf bash-5.2.15
 
 # Run the newly compiled bash program (replacing the one currently being executed)
+# Run at the end because it terminates the currently running shell before cleanup is done.
 exec /usr/bin/bash --login
