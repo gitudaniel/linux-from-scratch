@@ -63,13 +63,13 @@ cat > /etc/sysconfig/rc.site << "EOF"
 #i_message="Press '${FAILURE}I${NORMAL}' to enter interactive startup"
 
 # Set scripts to skip the file system check on reboot
-#FASTBOOT=yes
+#FASTBOOT=no
 
 # Skip reading from the console
 #HEADLESS=yes
 
 # Write out fsck progress if yes
-#VERBOSE_FSCK=no
+#VERBOSE_FSCK=yes
 
 # Speed up boot without waiting for settle in udev
 #OMIT_UDEV_SETTLE=y
