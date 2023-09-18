@@ -109,3 +109,5 @@ I skipped the creation of a grub rescue image.
 With all the steps done you should be able to log in to the LFS system as the root user.
 
 Remember to keep track of the password set in Chapter 8 section 8.25.2 `Configuring Shadow` otherwise you'll have a system you cannot log into.
+
+In the interests of saving space you can delete all downloaded tarballs leaving the file Linux-6.1.11 from `/mnt/lfs/sources`
