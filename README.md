@@ -3,6 +3,8 @@ Scripts for installing Linux from scratch on a minimal installation of ubuntu 22
 
 LFS (Linux From Scratch) was installed on a qemu virtual machine as a precaution. I wanted to be able to work on LFS without risking my host system.
 
+[Guide](https://help.ubuntu.com/community/KVM/Installation) on how to install KVM
+
 LFS is installed on a single partition. From my experience I'd recommend using ubuntu server instead of a minimal installation like I did.
 None of the GUI components of Ubuntu are required and it will save on space used for installation of Ubuntu.
 
